@@ -1,33 +1,50 @@
 /*asterisk wildcard selector to override default styles added by the browser */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
-*{
+* {
     padding: 0%;
     margin: 0%;
+    border: none;
     box-sizing: border-box;
 }
 
 /* Header */
 header {
-    background-color: lightcoral;
-}
 
-/* main content */
-main {
-    background-color: lightblue;
-    /*make main element take up and surplus space to push footer down*/
-    flex:1 0 auto;
-}
+    h1,
+    h2 {
+        font-family: "Space Grotesk", sans-serif;
+        color: #ff0000;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
 
-/*footer*/ 
- footer{
-    background-color:orange;
-}
-/*general styles*/
-body{
-    min-height: 100vh;
-    display:flex;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-}
-/* generic projects style*/
-color:3a3a3a;
+    #logo {
+        float: left;
+        font: size 280%;
+
+
+        /* main content */
+        main {
+            background-color: lightblue;
+            /*make main element take up and surplus space to push footer down*/
+            flex: 1 0 auto;
+        }
+
+        /*footer*/
+        footer {
+            background-color: orange;
+        }
+
+        /*general styles*/
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-family: "Space Grotesk", sans-serif;
+            font-weight: 300px;
+            color: red;
+        }
+
+        /* generic projects style*/
+        color:3a3a3a;
